@@ -1,0 +1,20 @@
+var buttEl = document.querySelector("#save-task");
+undefined
+console.log(buttEl);
+VM1744:1 <button id=​"save-task" class=​"btn">​Add Task​</button>​
+undefined
+buttEl.addEventListener("click", function(){};
+VM1828:1 Uncaught SyntaxError: missing ) after argument list
+buttEl.addEventListener("click", function(){});
+undefined
+buttEl.addEventListener("click", function(){ alert("button clicked");});
+undefined
+[Violation] 'click' handler took 1881ms
+[Violation] 'click' handler took 1974ms
+[Violation] 'click' handler took 1521ms
+document.createElement("li");
+<li>​</li>​
+var taskItemEL = document.createElement("li");
+undefined
+taskItemEL.textContent = "hello"; taskItemEL;
+<li>​hello​</li>​
